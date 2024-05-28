@@ -20,7 +20,6 @@ After obtaining the data from the SRA, the steps given in the below flowchart ha
 **Conversion of BAM to SAM:** The output from HISAT2 is typically in a format called BAM. In some cases, the data might be converted to a different format called SAM using Samtools. Both formats store the alignment information.
 **Gene Expression Quantification:** Finally, a tool called featureCounts was used to quantify the expression level of each gene. This tells us how much of each gene is present in the samples. The output of this step is usually a matrix showing gene expression counts for each sample.
 
-# Downstream analysis: 
 
 
 
